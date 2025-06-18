@@ -1,5 +1,5 @@
 data "azurerm_resource_group" "rg" {
-  name = "kml_rg_main-4f0cd4ccba6942cf" 
+  name = " " 
 }
 variable "vnet-names"{
     default = ["vnet1", "vnet2"]
