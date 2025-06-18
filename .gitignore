@@ -1,0 +1,27 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.crash
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive variable files
+*.tfvars.json
+*.tfvars
+
+# IDE/editor stuff
+.vscode/
+.idea/
+*.code-workspace
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Python virtualenv (if used for automation scripts)
+.venv/
+env/
