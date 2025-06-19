@@ -23,5 +23,13 @@ This project sets up **two Azure Virtual Networks (VNets)** with individual subn
 This allows internal communication between the two VMs across VNets.
 
 ## 🔐 Azure Bastion – Secure VM Access and Connectivity Testing
-In this architecture, we use Azure Bastion to securely connect to virtual machines (VMs) in different VNets without exposing public IP addresses.
+
+In this architecture, we use **Azure Bastion** to securely connect to virtual machines (VMs) in different VNets **without exposing public IP addresses**.
+
+### 📍 Why Use Bastion?
+
+- Provides **browser-based RDP/SSH access** to VMs via the Azure Portal.
+- Eliminates the need for **public IP addresses** on VMs.
+- Enables **testing private network connectivity** across peered VNets.
+
 ---
